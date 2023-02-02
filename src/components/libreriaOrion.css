@@ -1,0 +1,121 @@
+.estrella1 {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.estrella2 {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+}
+
+.estrella3 {
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+
+.estrella4 {
+  position: absolute;
+  top: 350px;
+  left: 320px;
+}
+
+.estrella5 {
+  position: absolute;
+  top: 400px;
+  left: 230px;
+}
+
+.estrella6 {
+  position: absolute;
+  top: 450px;
+  left: 60px;
+}
+
+.estrella7 {
+  position: absolute;
+  top: 520px;
+  left: 200px;
+}
+
+.estrella8 {
+  position: absolute;
+  top: 600px;
+  left: 300px;
+}
+
+.estrella9 {
+  position: absolute;
+  top: 600px;
+  left: 100px;
+}
+
+.estrella10 {
+  position: absolute;
+  top: 130px;
+  left: 200px;
+}
+
+@media only screen and (min-width: 600px) {
+  .estrella1 {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+  }
+
+  .estrella2 {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+  }
+
+  .estrella3 {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+  }
+
+  .estrella4 {
+    position: absolute;
+    top: 650px;
+    left: 200px;
+  }
+
+  .estrella5 {
+    position: absolute;
+    top: 600px;
+    left: 400px;
+  }
+
+  .estrella6 {
+    position: absolute;
+    top: 650px;
+    left: 500px;
+  }
+
+  .estrella7 {
+    position: absolute;
+    top: 300px;
+    left: 700px;
+  }
+
+  .estrella8 {
+    position: absolute;
+    top: 500px;
+    left: 600px;
+  }
+
+  .estrella9 {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+  }
+
+  .estrella10 {
+    position: absolute;
+    top: 130px;
+    left: 600px;
+  }
+}

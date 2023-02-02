@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.modalContainer {
+  max-width: 600px;
+  width: 100%;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.closeBtn {
+  position: fixed;
+  top: 4%;
+  right: 2%;
+}
+
+#botonAbsoluto {
+  position: absolute;
+  bottom: 4%;
+  left: 38%;
+  width: 25%;
+}
+
+#botonAbsoluto2 {
+  position: absolute;
+  top: 32%;
+  left: 6%;
+  width: 25%;
+}
+
+#botonAbsoluto3 {
+  position: absolute;
+  bottom: 4%;
+  left: 38%;
+  width: 25%;
+}
+
+#botonAbsoluto4 {
+  position: absolute;
+  top: 18%;
+  right: 2%;
+  width: 25%;
+}
+#botonAbsoluto5 {
+  position: absolute;
+  top: 23%;
+  left: 6%;
+  width: 25%;
+}
+
+#btnMS31 {
+  position: absolute;
+  bottom: 16%;
+  left: 27%;
+  width: 6%;
+}
+
+#btnMS32 {
+  position: absolute;
+  bottom: 16%;
+  left: 47%;
+  width: 6%;
+}
+
+#btnMS313 {
+  position: absolute;
+  bottom: 16%;
+  left: 65%;
+  width: 6%;
+}
+
+#btnMS41 {
+  position: absolute;
+  top: 33%;
+  left: 47%;
+  width: 7%;
+}
+
+#btnMS42 {
+  position: absolute;
+  bottom: 21%;
+  left: 33%;
+  width: 7%;
+}
+
+#btnMS43 {
+  position: absolute;
+  bottom: 21%;
+  right: 33%;
+  width: 7%;
+}
+
+#btnMS51 {
+  position: absolute;
+  top: 28%;
+  left: 46%;
+  width: 7%;
+}
+#btnMS52 {
+  position: absolute;
+  top: 44%;
+  right: 33%;
+  width: 7%;
+}
+#btnMS53 {
+  position: absolute;
+  bottom: 20%;
+  right: 38%;
+  width: 7%;
+}
+#btnMS54 {
+  position: absolute;
+  bottom: 20%;
+  left: 38%;
+  width: 7%;
+}
+#btnMS55 {
+  position: absolute;
+  top: 44%;
+  left: 33%;
+  width: 7%;
+}
+#btnMS61 {
+  position: absolute;
+  top: 32%;
+  left: 46%;
+  width: 8%;
+}
+#btnMS62 {
+  position: absolute;
+  bottom: 21%;
+  left: 33%;
+  width: 8%;
+}
+#btnMS63 {
+  position: absolute;
+  bottom: 21%;
+  right: 33%;
+  width: 8%;
+}
+#btnMS81 {
+  position: absolute;
+  bottom: 12%;
+  left: 34%;
+  width: 7%;
+}
+#btnMS82 {
+  position: absolute;
+  top: 39%;
+  left: 49%;
+  width: 7%;
+}
+#btnMS83 {
+  position: absolute;
+  bottom: 12%;
+  right: 30%;
+  width: 7%;
+}
+#btnJugar {
+  position: absolute;
+  bottom: 24%;
+  right: 18%;
+  width: 25%;
+}
