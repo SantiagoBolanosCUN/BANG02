@@ -50,7 +50,7 @@ const GR0U3 = ({}) => {
         autoHeight={true}
         navigation={true}
         modules={[Navigation]}
-        className="Swipersito"
+        className="Swipersito animate__animated animate__bounceIn"
       >
         <SwiperSlide>
           <img src={Slide1} />

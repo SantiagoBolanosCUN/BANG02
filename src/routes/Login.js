@@ -6,7 +6,7 @@ import { db } from "../components/Utils/firebase";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 // import { useHistory } from "react-router-dom";
 import { history } from "../components/History";
-import "animate.css";
+
 import "../routes/CursoBang/AssetsCurso/Inicio/CursoBang.css";
 
 export default function Login() {
@@ -35,7 +35,7 @@ export default function Login() {
     <section className="grid place-items-center min-h-screen bg-gradient-to-r from-indigo-900 via-fuchsia-900 to-indigo-900">
       <div className="text-center sm:text-left p-4 max-w-5xl grid gap-4 sm:grid-cols-2">
         <div className="sm: self-center">
-          <h1 className="text-4xl sm:text-5xl font-bold sm:col-span-2 text-white animate__animated animate__headShake">
+          <h1 className="text-4xl sm:text-5xl font-bold sm:col-span-2 text-white  animate__headShake">
             ¿Estás listo para <br /> vivir esta aventura?
           </h1>
           <p className="pt-4 pb-4 text-white">

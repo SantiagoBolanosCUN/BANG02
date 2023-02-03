@@ -21,7 +21,7 @@ const modalSlide6 = ({ propModal4, open, onClose }) => {
         onClick={onClose}
         className="closeBtn w-[40px] h-[40px] cursor-pointer hover:scale-125"
       >
-        <img src={cerrar} className="animate__animated animate__bounceIn" />
+        <img src={cerrar} className="" />
       </div>
     </div>
   );

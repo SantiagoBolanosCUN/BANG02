@@ -7,7 +7,6 @@ import Slide4 from "../U1/Slide4.png";
 import Slide5 from "../U1/Slide5.png";
 import Slide6 from "../U1/Slide6.png";
 import Slide7 from "../U1/Slide7.png";
-import "../../../estiloSwiper.css";
 
 const GR0U1 = () => {
   return (

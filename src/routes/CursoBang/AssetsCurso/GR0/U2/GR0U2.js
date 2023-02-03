@@ -28,7 +28,7 @@ const GR0U2 = () => {
         autoHeight={true}
         navigation={true}
         modules={[Navigation]}
-        className="Swipersito animate__animated animate__fadeIn"
+        className="Swipersito  animate__animated animate__bounceIn"
       >
         <SwiperSlide>
           <iframe
@@ -46,9 +46,13 @@ const GR0U2 = () => {
         <SwiperSlide>
           <img src={Slide3} />{" "}
         </SwiperSlide>
-        <SwiperSlide className="relative">
+        <SwiperSlide className="relative ">
           <div className="relative ">
-            <MODAL4 open={openModal} onClose={() => setOpenModal(false)} />
+            <MODAL4
+              open={openModal}
+              onClose={() => setOpenModal(false)}
+              className=""
+            />
             <img src={Slide4} />
             <button
               onClick={() => setOpenModal(true)}

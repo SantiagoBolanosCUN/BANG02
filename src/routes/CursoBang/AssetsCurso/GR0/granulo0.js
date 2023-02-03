@@ -28,7 +28,7 @@ const Granulo0 = () => {
   };
 
   return (
-    <div>
+    <div className="animate__animated animate__fadeInDown">
       <div className="border-2 border-white grid grid-cols-3 rounded-lg">
         <button
           onClick={() => toggleComponent(0)}

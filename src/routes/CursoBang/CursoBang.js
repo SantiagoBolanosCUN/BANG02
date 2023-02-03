@@ -67,41 +67,41 @@ const CursoBang = () => {
 
       <div className="grid grid-cols-3 h-screen place-content-center lg:pr-10 pl-3 pr-3 lg:pl-0 ">
         <div className="grid content-center">
-          <div className="hidden lg:block max-w-xs">
+          <div className="hidden lg:block max-w-xs ">
             <div
               onClick={() => toggleComponent(0)}
-              className="max-w-xs 2xl:max-w-sm pb-2 pt-4 animate__animated animate__bounceInLeft animate__faster"
+              className="max-w-xs 2xl:max-w-sm pb-2 pt-4"
             >
               <img src={GR0} className="hvr-backward cursor-pointer" />
             </div>
             <div
               onClick={() => toggleComponent(1)}
-              className="max-w-xs 2xl:max-w-sm  pb-2 animate__animated animate__bounceInLeft animate__fast"
+              className="max-w-xs 2xl:max-w-sm  pb-2"
             >
               <img src={GR1} className="hvr-backward cursor-pointer" />
             </div>
             <div
               onClick={() => toggleComponent(2)}
-              className="max-w-xs 2xl:max-w-sm pb-2 animate__animated animate__bounceInLeft animate__slower"
+              className="max-w-xs 2xl:max-w-sm pb-2"
             >
               <img src={GR2} className="hvr-backward cursor-pointer" />
             </div>
             <div
               onClick={() => toggleComponent(3)}
-              className="max-w-xs 2xl:max-w-sm  pb-2 animate__animated animate__bounceInLeft"
+              className="max-w-xs 2xl:max-w-sm  pb-2"
             >
               <img src={GR3} className="hvr-backward cursor-pointer " />
             </div>
             <div
               onClick={() => toggleComponent(4)}
-              className="max-w-xs 2xl:max-w-sm  pb-2 animate__animated animate__bounceInLeft"
+              className="max-w-xs 2xl:max-w-sm  pb-2"
             >
               <img src={GR4} className="hvr-backward cursor-pointer " />
             </div>
           </div>
         </div>
 
-        <div className="col-span-3 lg:col-span-2 animate__animated animate__bounceIn">
+        <div className="col-span-3 lg:col-span-2">
           {GR0open && <Granulo0 />}
           {GR1open && <Granulo1 />}
           {GR2open && <Granulo2 />}
