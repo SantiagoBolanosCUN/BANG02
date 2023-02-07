@@ -12,9 +12,9 @@ import GR3 from "../CursoBang/AssetsCurso/Inicio/GR3.png";
 import GR4 from "../CursoBang/AssetsCurso/Inicio/GR4.png";
 import "../CursoBang/AssetsCurso/Inicio/CursoBang.css";
 import { Navigation } from "swiper";
-import Granulo0 from "./AssetsCurso/GR0/granulo0";
-import Granulo1 from "./AssetsCurso/GR1/granulo1";
-import Granulo2 from "./AssetsCurso/GR2/granulo2";
+import Granulo0 from "./AssetsCurso/GR0/Granulo0";
+import Granulo1 from "./AssetsCurso/GR1/Granulo1";
+import Granulo2 from "./AssetsCurso/GR2/Granulo2";
 import Granulo3 from "./AssetsCurso/GR3/granulo3";
 import Granulo4 from "./AssetsCurso/GR4/granulo4";
 import "animate.css";
@@ -72,13 +72,13 @@ const CursoBang = () => {
               onClick={() => toggleComponent(0)}
               className="max-w-xs 2xl:max-w-sm pb-2 pt-4"
             >
-              <img src={GR0} className="hvr-backward cursor-pointer" />
+              <img src={GR1} className="hvr-backward cursor-pointer" />
             </div>
             <div
               onClick={() => toggleComponent(1)}
               className="max-w-xs 2xl:max-w-sm  pb-2"
             >
-              <img src={GR1} className="hvr-backward cursor-pointer" />
+              <img src={GR0} className="hvr-backward cursor-pointer" />
             </div>
             <div
               onClick={() => toggleComponent(2)}

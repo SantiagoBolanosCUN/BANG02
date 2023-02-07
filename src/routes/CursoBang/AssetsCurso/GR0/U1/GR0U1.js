@@ -1,12 +1,13 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
-import Slide1 from "../U1/Slide1.png";
-import Slide3 from "../U1/Slide3.png";
-import Slide4 from "../U1/Slide4.png";
-import Slide5 from "../U1/Slide5.png";
-import Slide6 from "../U1/Slide6.png";
-import Slide7 from "../U1/Slide7.png";
+import Slide1 from "../U1/Slide1.jpg";
+import Slide3 from "../U1/Slide3.jpg";
+import Slide4 from "../U1/Slide4.jpg";
+import Slide5 from "../U1/Slide5.jpg";
+import Slide6 from "../U1/Slide6.jpg";
+import Slide7 from "../U1/Slide7.jpg";
+
 import "../../../estiloSwiper.css";
 
 const GR0U1 = () => {
@@ -16,7 +17,7 @@ const GR0U1 = () => {
         autoHeight={true}
         navigation={true}
         modules={[Navigation]}
-        className="Swipersito animate__animated animate__bounceIn"
+        className="Swipersito animate__animated animate__fadeIn"
       >
         <SwiperSlide>
           <img src={Slide1} />

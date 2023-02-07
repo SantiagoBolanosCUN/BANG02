@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
-import Slide2 from "../U2/Slide2.png";
-import Slide3 from "../U2/Slide3.png";
-import Slide4 from "../U2/Slide4.png";
-import Slide5 from "../U2/Slide5.png";
-import Slide6 from "../U2/Slide6.png";
-import Slide7 from "../U2/Slide7.png";
-import Slide8 from "../U2/Slide8.png";
-import Slide9 from "../U2/Slide9.png";
-import Slide10 from "../U2/Slide10.png";
+import Slide2 from "../U2/Slide2.jpg";
+import Slide3 from "../U2/Slide3.jpg";
+import Slide4 from "../U2/Slide4.jpg";
+import Slide5 from "../U2/Slide5.jpg";
+import Slide6 from "../U2/Slide6.jpg";
+import Slide7 from "../U2/Slide7.jpg";
+import Slide8 from "../U2/Slide8.jpg";
+import Slide9 from "../U2/Slide9.jpg";
+import Slide10 from "../U2/Slide10.jpg";
 import BotonSlide4 from "../U2/BotonSlide4.png";
 import MODAL4 from "./modalSlide4";
 import MODAL5 from "./modalSlide5";
@@ -28,7 +28,7 @@ const GR0U2 = () => {
         autoHeight={true}
         navigation={true}
         modules={[Navigation]}
-        className="Swipersito  animate__animated animate__bounceIn"
+        className="Swipersito  animate__animated animate__fadeIn"
       >
         <SwiperSlide>
           <iframe
@@ -57,7 +57,7 @@ const GR0U2 = () => {
             <button
               onClick={() => setOpenModal(true)}
               id="botonAbsoluto"
-              className="z-[1] hover:w-2xl hover:scale-125"
+              className="z-[1]  hover:scale-125"
             >
               <img src={BotonSlide4} />
             </button>
