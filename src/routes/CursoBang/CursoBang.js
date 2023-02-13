@@ -12,11 +12,11 @@ import GR3 from "../CursoBang/AssetsCurso/Inicio/GR3.png";
 import GR4 from "../CursoBang/AssetsCurso/Inicio/GR4.png";
 import "../CursoBang/AssetsCurso/Inicio/CursoBang.css";
 import { Navigation } from "swiper";
-import Granulo0 from "./AssetsCurso/GR0/Granulo0";
-import Granulo1 from "./AssetsCurso/GR1/Granulo1";
-import Granulo2 from "./AssetsCurso/GR2/Granulo2";
-import Granulo3 from "./AssetsCurso/GR3/granulo3";
-import Granulo4 from "./AssetsCurso/GR4/granulo4";
+import Granulo0 from "./AssetsCurso/GR0/Granulo0.js";
+import Granulo1 from "./AssetsCurso/GR1/Granulo1.js";
+import Granulo2 from "./AssetsCurso/GR2/Granulo2.js";
+import Granulo3 from "./AssetsCurso/GR3/Granulo3.js";
+import Granulo4 from "./AssetsCurso/GR4/granulo4.js";
 import "animate.css";
 
 const CursoBang = () => {

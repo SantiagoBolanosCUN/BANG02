@@ -1,32 +1,33 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
-import Slide1 from "../U1/Slide1.png";
-import Slide3 from "../U1/Slide3.png";
-import Slide4 from "../U1/Slide4.png";
-import Slide5 from "../U1/Slide5.png";
-import Slide6 from "../U1/Slide6.png";
+import Slide1 from "../U1/Slide1.jpg";
+import Slide3 from "../U1/Slide3.jpg";
+import Slide4 from "../U1/Slide4.jpg";
+import Slide5 from "../U1/Slide5.jpg";
+import Slide6 from "../U1/Slide6.jpg";
 import Slide7 from "../U1/Slide7.png";
+import audio from "../U1/PodcastGR1U1.mp3";
 
-const GR0U1 = () => {
+const GR1U1 = () => {
   return (
     <>
       <Swiper
         autoHeight={true}
         navigation={true}
         modules={[Navigation]}
-        className="Swipersito animate__animated animate__bounceIn"
+        className="Swipersito animate__animated"
       >
         <SwiperSlide>
           <img src={Slide1} />
         </SwiperSlide>
         <SwiperSlide>
           <iframe
-            className="w-full aspect-video"
-            src="https://player.vimeo.com/video/792786273?h=bd50a05b86&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            src="https://player.vimeo.com/video/795614073?h=1c01d646e1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
-            title="GR0U1"
+            title="Slide2"
+            className="w-full aspect-video"
           ></iframe>
         </SwiperSlide>
 
@@ -43,6 +44,11 @@ const GR0U1 = () => {
           <img src={Slide6} />{" "}
         </SwiperSlide>
         <SwiperSlide>
+          <div className="z-[1] audioGR1U1">
+            <audio controlsList="nodownload" controls id="audio">
+              <source src={audio} type="audio/mpeg" />
+            </audio>
+          </div>
           <img src={Slide7} />
         </SwiperSlide>
       </Swiper>
@@ -50,4 +56,4 @@ const GR0U1 = () => {
   );
 };
 
-export default GR0U1;
+export default GR1U1;

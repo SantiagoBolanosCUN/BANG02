@@ -62,22 +62,22 @@
 
 #btnMS31 {
   position: absolute;
-  bottom: 16%;
-  left: 27%;
+  bottom: 10%;
+  left: 28%;
   width: 6%;
 }
 
 #btnMS32 {
   position: absolute;
-  bottom: 16%;
+  bottom: 10%;
   left: 47%;
   width: 6%;
 }
 
 #btnMS313 {
   position: absolute;
-  bottom: 16%;
-  left: 65%;
+  bottom: 10%;
+  right: 28%;
   width: 6%;
 }
 
@@ -85,88 +85,88 @@
   position: absolute;
   top: 33%;
   left: 47%;
-  width: 7%;
+  width: 6%;
 }
 
 #btnMS42 {
   position: absolute;
   bottom: 21%;
-  left: 33%;
-  width: 7%;
+  left: 36%;
+  width: 6%;
 }
 
 #btnMS43 {
   position: absolute;
   bottom: 21%;
-  right: 33%;
-  width: 7%;
+  right: 36%;
+  width: 6%;
 }
 
 #btnMS51 {
   position: absolute;
-  top: 28%;
+  top: 26%;
   left: 46%;
-  width: 7%;
+  width: 6%;
 }
 #btnMS52 {
   position: absolute;
   top: 44%;
-  right: 33%;
-  width: 7%;
+  right: 34%;
+  width: 6%;
 }
 #btnMS53 {
   position: absolute;
-  bottom: 20%;
-  right: 38%;
-  width: 7%;
+  bottom: 16%;
+  right: 39%;
+  width: 6%;
 }
 #btnMS54 {
   position: absolute;
-  bottom: 20%;
+  bottom: 16%;
   left: 38%;
-  width: 7%;
+  width: 6%;
 }
 #btnMS55 {
   position: absolute;
   top: 44%;
-  left: 33%;
-  width: 7%;
+  left: 32%;
+  width: 6%;
 }
 #btnMS61 {
   position: absolute;
-  top: 32%;
-  left: 46%;
-  width: 8%;
+  top: 29%;
+  left: 47%;
+  width: 6%;
 }
 #btnMS62 {
   position: absolute;
-  bottom: 21%;
-  left: 33%;
-  width: 8%;
+  bottom: 22%;
+  left: 34%;
+  width: 6%;
 }
 #btnMS63 {
   position: absolute;
-  bottom: 21%;
-  right: 33%;
-  width: 8%;
+  bottom: 22%;
+  right: 34%;
+  width: 6%;
 }
 #btnMS81 {
   position: absolute;
   bottom: 12%;
-  left: 34%;
-  width: 7%;
+  left: 37%;
+  width: 6%;
 }
 #btnMS82 {
   position: absolute;
   top: 39%;
-  left: 49%;
-  width: 7%;
+  left: 50%;
+  width: 6%;
 }
 #btnMS83 {
   position: absolute;
   bottom: 12%;
-  right: 30%;
-  width: 7%;
+  right: 32%;
+  width: 6%;
 }
 #btnJugar {
   position: absolute;
@@ -179,4 +179,18 @@
   bottom: 24%;
   left: 18%;
   width: 25%;
+}
+
+.audioGR1U1 {
+  position: absolute;
+  bottom: 33%;
+  left: 19%;
+  width: 100%;
+}
+
+#botonJugar {
+  position: absolute;
+  bottom: 24%;
+  left: 34%;
+  width: 32%;
 }
